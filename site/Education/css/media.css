@@ -1,0 +1,129 @@
+/*// Extra small devices (portrait phones, less than 576px)*/
+@media (max-width: 575.98px) {
+	/*header start*/
+.logo{
+	width: 180px;
+}
+.menu ul li a{
+	padding:0 0;
+	text-align: right;
+}
+	/*header end*/
+	/*banner start*/
+	.banner_content h1 {
+    margin-top: 87px;
+    margin-bottom: 110px;
+    font-size: 30px;
+}
+/*kid1 start*/
+.kid1 {
+    padding: 60px 0;
+}
+.common_title hr {
+    width: 125px;
+    border-bottom: 3px dashed grey;
+}
+.common_title h1 {
+    font-size: 20px;
+}
+.school {
+    text-align: center;
+}
+.school hr {
+    margin: auto;
+    margin-bottom: 20px
+}
+.school img {
+    width: 200px;
+    margin-bottom: 20px;
+}
+.kid2{
+	padding-top: 50px;
+	padding-bottom: 25px;
+}
+.circle {
+    margin-bottom: 25px;
+}
+
+}
+
+/*// Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) and (max-width: 767.98px) {
+		/*header start*/
+.logo{
+	width: 180px;
+}
+.menu ul li a{
+	padding:0 0;
+	text-align: right;
+}
+	/*header end*/
+	.banner_content h1 {
+    font-size: 32px;
+}
+	/*kid1 start*/
+.kid1 {
+    padding: 60px 0;
+}
+.common_title hr {
+    width: 125px;
+    border-bottom: 3px dashed grey;
+}
+.common_title h1 {
+    font-size: 20px;
+}
+.school {
+    text-align: center;
+}
+.school hr {
+    margin: auto;
+    margin-bottom: 20px
+}
+.school img {
+    width: 200px;
+    margin-bottom: 20px;
+}
+/*kid2 start*/
+.kid2{
+	padding-top: 70px;
+	padding-bottom: 40px;
+}
+.circle {
+    margin-bottom: 30px;
+}
+
+}
+
+/*// Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) and (max-width: 991.98px) {
+		/*header start*/
+.menu ul li a{
+	padding:0 0;
+	text-align: right;
+}
+	/*header end*/
+	/*banner start*/
+	.banner_content h1 {
+    margin-top: 117px;
+    margin-bottom: 170px;
+}
+}
+
+/*// Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) and (max-width: 1199.98px) {
+/*banner start*/
+.banner_content h1 {
+    margin-top: 150px;
+    margin-bottom: 265px;
+}
+
+}
+
+/*// Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) {
+	/*banner start*/
+.banner_content h1 {
+    margin-top: 260px;
+    margin-bottom: 365px;
+}
+}
